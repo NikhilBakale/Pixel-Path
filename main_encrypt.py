@@ -26,4 +26,5 @@ def dfs_encryption(x, y,isStart,enc_msg, pixels, visited, path, data_index):
         if (nx, ny) not in visited:
             data_index = dfs_encryption(nx, ny, True,enc_msg, pixels, visited, path, data_index)
     path.pop()
+    
     return data_index
