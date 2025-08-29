@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # PixelPath - Secure Message Transmission
 
 ## Project Overview
@@ -64,3 +65,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - Thanks to the contributors and the open-source community for their support and resources.
+=======
+# PixelPath
+Steganography based secret message hiding in image with dynamic path traversal 
+>>>>>>> ebb2d3b2b26c75a71098b74d05edb6172ddd1b1d
+"# Pixel-Path" 
