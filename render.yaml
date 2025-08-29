@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: my-flask-app # Choose any name you like
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn app:app" # <-- CHANGE THIS TO MATCH YOUR PROJECT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.8 # Match your local Python version
