@@ -206,6 +206,5 @@ def get_visualization():
         return jsonify({'error': 'Visualization not found'}), 404
 
 if __name__ == '__main__':
-    # port = int(os.environ.get("PORT", 5000))
-    # app.run(host="0.0.0.0", port=port, debug=True)
-    app.run(debug=True, port=8080)
+    port = int(os.environ.get("PORT", 5000))  # use PORT from environment
+    app.run(host="0.0.0.0", port=port, debug=True)
